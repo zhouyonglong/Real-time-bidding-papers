@@ -3,7 +3,7 @@
 This is a collection of research and review papers of real-time bidding (RTB) based display advertising techniques. The sharing principle of these references here is for research. If any authors do not want their paper to be listed here, please feel free to contact [Weinan Zhang](http://wnzhang.net).
 
 **You are more than welcome to update this list!** <br>
-If you find a paper about RTB techniques or review which is not listed here, please 
+If you find a paper about RTB techniques or review which is not listed here, please
 * fork this repository, add it and merge back;
 * or email [Weinan Zhang](http://wnzhang.net) (wnzhang [AT] sjtu.edu.cn);
 * or report an issue here.
@@ -26,10 +26,20 @@ If you find a paper about RTB techniques or review which is not listed here, ple
 ## Demand-Side Platform (DSP) Techniques
 
 ### CTR/CVR Estimation
+* [A Nonparametric Delayed Feedback Model for Conversion Rate Prediction](https://arxiv.org/pdf/1802.00255.pdf) by Yuya Yoshikawa and Yusaku Imai. ArXiv 2018.
+* [Robust Factorization Machines for User Response Prediction](http://wnzhang.net/share/rtb-papers/rfm-www.pdf) by Surabhi Punjabi and Priyanka Bhatt. WWW 2018.
+* [Field-weighted Factorization Machines for Click-Through Rate Prediction in Display Advertising](http://wnzhang.net/share/rtb-papers/fwfm-www.pdf) by Junwei Pan et al. WWW 2018.
+* [Deep & Cross Network for Ad Click Predictions](https://arxiv.org/pdf/1708.05123.pdf) by Ruoxi Wang et al. ADKDD & TargetAd 2017.
+* [Ranking and Calibrating Click-Attributed Purchases in Performance Display Advertising](https://drive.google.com/file/d/0BwF-hgLDpCD6UTlYLXBZX1BwWHc/view) by Sougata Chaudhuri et al. ADKDD 2017.
+* [A Practical Framework of Conversion Rate Prediction for Online Display Advertising](https://drive.google.com/file/d/0BwF-hgLDpCD6eENMRFo2dzF4NEk/view) by Quan Lu et al. ADKDD 2017.
+* [An Ensemble-Based Approach to Click-Through Rate Prediction for Promoted Listings at Etsy](https://arxiv.org/pdf/1711.01377.pdf) by Kamelia Aryafar et al. ADKDD 2017.
+* [Deep Interest Network for Click-Through Rate Prediction](https://arxiv.org/pdf/1706.06978.pdf) by Guorui Zhou et al. ArXiv 2017.
+* [DeepFM: A Factorization-Machine based Neural Network for CTR Prediction](https://arxiv.org/pdf/1703.04247.pdf) by Huifeng Guo et al. IJCAI 2017
 * [Learning Piece-wise Linear Models from Large Scale Data for Ad Click Prediction](https://arxiv.org/pdf/1704.05194.pdf)  by Kun Gai, Xiaoqiang Zhu, Han Li, et al. Arxiv 2017.
 * [SEM: A Softmax-based Ensemble Model for CTR Estimation in Real-Time Bidding Advertising](http://wnzhang.net/share/rtb-papers/softmax-ensemble.pdf) by Wen-Yuan Zhu et al. BigComp 2017.
 * [Neural Feature Embedding for User Response Prediction in Real-Time Bidding (RTB)](https://arxiv.org/pdf/1702.00855v1.pdf) by Enno Shioji, Masayuki Arai. ArXiv 2017.
 * [Field-aware Factorization Machines in a Real-world Online Advertising System](https://arxiv.org/pdf/1701.04099.pdf) by Yuchin Juan, Damien Lefortier, Olivier Chapelle. ArXiv 2017.
+* [Product-based Neural Networks for User Response Prediction](https://arxiv.org/pdf/1611.00144.pdf) by Yanru Qu et al. ICDM 2016.
 * [Sparse Factorization Machines for Click-through Rate Prediction](http://staff.ustc.edu.cn/~cheneh/paper_pdf/2016/Zhen-Pan-ICDM.pdf) by Zhen Pan et al. ICDM 2016.
 * [Deep CTR Prediction in Display Advertising](http://wnzhang.net/share/rtb-papers/deep-ctr-display.pdf) by Junxuan Chen et al. MM 2016.
 * [Bid-aware Gradient Descent for Unbiased Learning with Censored Data in Display Advertising](http://wnzhang.net/papers/unbias-kdd.pdf) by Weinan Zhang, Tianxiong Zhou, Jun Wang, Jian Xu. KDD 2016.
@@ -43,8 +53,9 @@ If you find a paper about RTB techniques or review which is not listed here, ple
 * [Deep Learning over Multi-field Categorical Data: A Case Study on User Response Prediction](http://wnzhang.net/share/rtb-papers/deep-ctr.pdf) by Weinan Zhang, Tianming Du, Jun Wang. ECIR 2016.
 * [Offline Evaluation of Response Prediction in Online Advertising Auctions](http://wnzhang.net/share/rtb-papers/ctr-bid.pdf) by Olivier Chapelle. WWW 2015.
 * [Predicting Response in Mobile Advertising with Hierarchical Importance-Aware Factorization Machine](http://wnzhang.net/share/rtb-papers/fm-ctr.pdf) by Richard J. Oentaryo et al. WSDM 2014.
-* [Estimating Conversion Rate in Display Advertising from Past Performance Data](http://wnzhang.net/share/rtb-papers/cvr-est.pdf) by Kuang-chih Lee et al. KDD 2012. 
-* [Scalable Hands-Free Transfer Learning for Online Advertising](http://wnzhang.net/share/rtb-papers/transfer-ctr.pdf) by Brian Dalessandro et al. KDD 2014. 
+* [Scalable Hierarchical Multitask Learning Algorithms for Conversion Optimization in Display Advertising](https://pdfs.semanticscholar.org/fc11/8ce8cf852ccd10cae0fcf031cb5c238f69c0.pdf) by Amr Ahmed et al. WSDM 2014.
+* [Estimating Conversion Rate in Display Advertising from Past Performance Data](http://wnzhang.net/share/rtb-papers/cvr-est.pdf) by Kuang-chih Lee et al. KDD 2012.
+* [Scalable Hands-Free Transfer Learning for Online Advertising](http://wnzhang.net/share/rtb-papers/transfer-ctr.pdf) by Brian Dalessandro et al. KDD 2014.
 * [Evaluating and Optimizing Online Advertising: Forget the click, but there are good proxies](http://wnzhang.net/share/rtb-papers/forget-click.pdf) by Brian Dalessandro et al. SSRN 2012.
 * [Modeling Delayed Feedback in Display Advertising](http://wnzhang.net/share/rtb-papers/delayed-feedback.pdf) by Olivier Chapelle. KDD 2014.
 * [Ad Click Prediction: a View from the Trenches](https://www.eecs.tufts.edu/~dsculley/papers/ad-click-prediction.pdf) by H. Brendan McMahan. KDD 2013.
@@ -57,6 +68,14 @@ If you find a paper about RTB techniques or review which is not listed here, ple
 * [Functional Bid Landscape Forecasting for Display Advertising](http://apex.sjtu.edu.cn/public/files/members/20160929/functional-bid-lands.pdf) by Yuchen Wang et al. ECML-PKDD 2016.
 
 ### Bidding Strategies
+* [Optimal Bidding Strategy for Brand Advertising](https://www.ijcai.org/proceedings/2018/0059.pdf) by Takanori Maehara et al. IJCAI 2018.
+* [Bidding Machine: Learning to Bid for Directly Optimizing Profits in Display Advertising](https://arxiv.org/abs/1803.02194) by Kan Ren et al. TKDE 2018.
+* [Budget Constrained Bidding by Model-free Reinforcement Learning in Display Advertising](https://arxiv.org/pdf/1802.08365.pdf) by Di Wu et al. ArXiv 2018.
+* [Real-Time Bidding with Multi-Agent Reinforcement Learning in Display Advertising](https://arxiv.org/pdf/1802.09756.pdf) by Junqi Jin et al. ArXiv 2018.
+* [Deep Reinforcement Learning for Sponsored Search Real-time Bidding](https://arxiv.org/pdf/1803.00259.pdf) by Jun Zhao et al. ArXiv 2018.
+* [LADDER: A Human-Level Bidding Agent for Large-Scale Real-Time Online Auctions](https://arxiv.org/pdf/1708.05565.pdf) by Yu Wang et al. ArXiv 2017.
+* [Improving Real-Time Bidding Using a Constrained Markov Decision Process](http://wnzhang.net/share/rtb-papers/rtb-cmdp.pdf) by Manxing Du et al. ADMA 2017.
+* [Attribution Modeling Increases Efficiency of Bidding in Display Advertising](https://arxiv.org/pdf/1707.06409.pdf) by Eustache Diemert et al. ADKDD 2017.
 * [Profit Maximization for Online Advertising Demand-Side Platforms](https://arxiv.org/pdf/1706.01614.pdf) by Paul Grigas et al. ArXiv 2017.
 * [Real-Time Bidding by Reinforcement Learning in Display Advertising](http://wnzhang.net/papers/rlb.pdf) by Han Cai et al. WSDM 2017.
 * [Managing Risk of Bidding in Display Advertising](http://wnzhang.net/papers/risk-bid.pdf) by Haifeng Zhang et al. WSDM 2017.
@@ -89,6 +108,7 @@ If you find a paper about RTB techniques or review which is not listed here, ple
 * [Adaptive bidding for display advertising](http://www.arpitaghosh.com/papers/fp632-ghosh.pdf ) by Ghosh, A., Rubinstein, B. I, Vassilvitskii, S., and Zinkevich, M.  2009
 
 ### Fraud Detection
+* [Independent Auditing of Online Display Advertising Campaigns](http://www.it.uc3m.es/~rcuevas/papers/p120-callejo.pdf) by 	Patricia Callejo et al. HotNets 2016.
 * [Using Co-Visitation Networks For Classifying Non-Intentional Traffic](http://wnzhang.net/share/rtb-papers/co-visit-fraud.pdf) by Ori Stitelman et al. Dstillery 2013.
 * [Impression Fraud in On-line Advertising via Pay-Per-View Networks](http://0b4af6cdc2f0c5998459-c0245c5c937c5dedcca3f1764ecc9b2f.r43.cf2.rackcdn.com/12305-sec13-paper_springborn.pdf) by Kevin Springborn, Paul Barford. USENIX Security Symposium 2013.
 * [Understanding Fraudulent Activities in Online Ad Exchanges](http://conferences.sigcomm.org/imc/2011/docs/p279.pdf) by Brett Stone-Grosset et al. IMC 2011.
@@ -107,19 +127,23 @@ If you find a paper about RTB techniques or review which is not listed here, ple
 * [Information Disclosure in Real-Time Bidding Advertising Markets](http://wnzhang.net/share/rtb-papers/rtb-info.pdf) by Juanjuan Li, Yong Yuan, Rui Qin. SOLI 2014.
 
 ## Data Management Platform (DMP) Techniques
+* [A Sub-linear, Massive-scale Look-alike Audience Extension System](http://proceedings.mlr.press/v53/ma16.html)
+  by Qiang Ma, Musen Wen, Zhen Xia, Datong Chen. KDD 2016 / PMLR 2016
 * [Audience Expansion for Online Social Network Advertising](http://www.kdd.org/kdd2016/papers/files/adf0483-liuA.pdf) by Haishan Liu et al. KDD 2016.
 * [Implicit Look-alike Modelling in Display Ads: Transfer Collaborative Filtering to CTR ](http://wnzhang.net/share/rtb-papers/cf-ctr.pdf) by Weinan Zhang, Lingxi Chen, Jun Wang. ECIR 2016.
 * [Pleasing the advertising oracle: Probabilistic prediction from sampled, aggregated ground truth](http://wnzhang.net/share/rtb-papers/sample-pred.pdf) by Melinda Han Williams et al. ADKDD 2014.
 * [Focused matrix factorization for audience selection in display advertising](http://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/40489.pdf) by Kanagal B et al. ICDE 2013.
 
 ## Conversion Attribution
+* [Learning Multi-touch Conversion Attribution with Dual-attention Mechanisms for Online Advertising](https://arxiv.org/abs/1808.03737) by Kan Ren, Yuchen Fang, Weinan Zhang, et al. CIKM 2018.
+* [Additional Multi-Touch Attribution for Online Advertising](http://www.saying.ren/paper/ji-amta.pdf) by Wendi Ji, et al. AAAI 2017.
 * [Multi-Touch Attribution in Online Advertising with Survival Theory](http://wnzhang.net/share/rtb-papers/attr-survival.pdf) by Ya Zhang, Yi Wei, and Jianbiao Ren. ICDM 2014.
 * [Multi-Touch Attribution Based Budget Allocation in Online Advertising](http://wnzhang.net/share/rtb-papers/mta-budget-allocation.pdf) by Sahin Cem Geyik, Abhishek Saxena, Ali Dasdan. ADKDD 2014.
 * [Causally Motivated Attribution for Online Advertising](http://wnzhang.net/share/rtb-papers/causual-conv-att.pdf). by Brian Dalessandro et al. ADKDD 2012.
 * [Data-driven Multi-touch Attribution Models](http://wnzhang.net/share/rtb-papers/data-conv-att.pdf). by Xuhui Shao, Lexin Li. KDD 2011.
 
 ## Ad Exchanges, Mechanisms and Game Theory
-* [Truthfulness with Value-Maximizing Bidders: On the Limits of Approximation in Combinatorial Markets](http://dss.in.tum.de/files/bichler-research/2016_fadaei_bichler_value_bidders.pdf) by Salman Fadaei and Martin Bichler. EJOR 2016. 
+* [Truthfulness with Value-Maximizing Bidders: On the Limits of Approximation in Combinatorial Markets](http://dss.in.tum.de/files/bichler-research/2016_fadaei_bichler_value_bidders.pdf) by Salman Fadaei and Martin Bichler. EJOR 2016.
 * [Repeated Auctions with Budgets in Ad Exchanges: Approximations and Design](http://wnzhang.net/share/rtb-papers/repeat-auction.pdf) by Santiago R. Balseiro, Omar Besbesy, Gabriel Y. Weintraub. Management Science 2015.
 * [Ad Exchange: Intention Driven Auction Mechanisms for Mediating Between Publishers and Advertisers](http://wnzhang.net/share/rtb-papers/adx-mec.pdf) by Rina Azoulay, Esther David. WI/IAT 2015.
 * [Pricing Externalities in Real-Time Bidding Markets](http://wnzhang.net/share/rtb-papers/rtb-pricing-ext.pdf) by Joseph Reisinger, Michael Driscoll. Machine Learning in Online Advertising.
@@ -137,7 +161,7 @@ If you find a paper about RTB techniques or review which is not listed here, ple
 * [Finding Needle in a Million Metrics: Anomaly Detection in a Large-scale Computational Advertising Platform](http://arxiv.org/pdf/1602.07057.pdf) by Bowen Zhou, Shahriar Shariat. TargetAd 2016.
 
 ## Datasets and Benchmarking
-* [YOYI RTB datasets (with bidding information)](http://goo.gl/9r8DtM) by Kan Ren and Yifei Rong et al. CIKM 2016.
+* [YOYI RTB datasets (with bidding information)](http://apex.sjtu.edu.cn/datasets/7) by Kan Ren and Yifei Rong et al. CIKM 2016.
 * [iPinYou Global RTB Bidding Algorithm Competition Dataset](http://wnzhang.net/share/rtb-papers/ipinyou-dataset.pdf) by Hairen Liao et al. ADKDD 2014.
 * [Real-Time Bidding Benchmarking with iPinYou Dataset](http://arxiv.org/abs/1407.7073) by Weinan Zhang et al. ArXiv 2014.
 * [Criteo Dataset for Product Recommendation / Counterfactual Learning](http://www.cs.cornell.edu/~adith/Criteo/NIPS16_Benchmark.pdf) by Damien Lefortier et al. What If workshop NIPS 2016.
@@ -146,5 +170,5 @@ If you find a paper about RTB techniques or review which is not listed here, ple
 * [Avazu Click Prediction](https://www.kaggle.com/c/avazu-ctr-prediction/data) by Avazu.
 
 <!---
-* [](http://wnzhang.net/share/rtb-papers/). by . 
+* [](http://wnzhang.net/share/rtb-papers/). by .
 -->
